@@ -1,0 +1,72 @@
+#todo-container {
+	margin-top: 10%;
+	padding: 0px;	
+}
+
+.todo-task {
+	background-color: white;	
+	padding-left: 0px;
+}
+
+#todo-list-header {
+	background-color: #428bca;
+	color: white;
+	font-weight: bold;	
+}
+
+#todo-list-header-title {
+	 padding-left: 0px;
+	 padding-top: 0.5em;
+	 padding-bottom: 0.3em;
+}
+
+#todo-task-title {	
+	padding-top: 0.3em;
+	padding-bottom: 0.3em;
+}
+
+.task-done {
+	text-decoration: line-through;
+	color: lightgrey;
+}
+
+#add-button {
+	font-size: 1.6em;
+}
+
+#add-todo-input {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+#add-todo-input-field{
+	width: 100%;
+	padding-left: 1em;
+}
+
+.delete-button {
+	background-color: red;
+	color: white;
+	padding-top: 0.5em;
+	 padding-bottom: 0.5em;	 
+}
+
+body {
+/* IE10+ */ 
+background-image: -ms-linear-gradient(left, #05C1FF 0%, #05C1FF 0%, #FFCF33 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(left, #05C1FF 0%, #05C1FF 0%, #FFCF33 100%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(left, #05C1FF 0%, #05C1FF 0%, #FFCF33 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #05C1FF), color-stop(0, #05C1FF), color-stop(100, #FFCF33));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(left, #05C1FF 0%, #05C1FF 0%, #FFCF33 100%);
+
+/* W3C Markup */ 
+background-image: linear-gradient(to right, #05C1FF 0%, #05C1FF 0%, #FFCF33 100%);
+}
